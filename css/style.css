@@ -1,0 +1,17 @@
+.my-bg-style{
+    background-image: linear-gradient(rgb(134, 134, 134),#575e64,rgb(134, 134, 134));
+    transition: transform .4s;
+}
+.my-bg-style:hover{
+    transform: scale(1.04);
+    background-color: black;
+}
+
+.my-button-style:hover{
+    font-weight: bolder;
+}
+
+.my-sidebar-style:hover{
+    font-weight: bolder;
+    
+}

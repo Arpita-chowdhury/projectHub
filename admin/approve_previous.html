@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjectHub</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <!--body container start-->
+
+        <!--navbar starts here-->
+        <header>
+            <nav class="navbar navbar-expand-sm sticky-top bg-secondary px-2">
+
+                <!--logo design-->
+                <a class="navbar-brand d-flex text-capitalize" href="../index.html" >
+                    <h3><span class=" fw-bold bg-dark text-light px-2  rounded">p</span></h3>
+                    <h3><span class=" fw-bold  bg-dark text-light px-2  rounded">r</span></h3>
+                    <h3><span class="  fw-bold  bg-dark text-light px-2  rounded">o</span></h3>
+                    <h3><span class="  fw-bold bg-dark text-light px-2  rounded">j</span></h3>
+                    <h3><span class="  fw-bold bg-dark text-light px-2  rounded">e</span></h3>
+                    <h3><span class=" fw-bold  bg-dark text-light px-2 rounded">c</span></h3>
+                    <h3><span class="  fw-bold  bg-dark text-light px-2  rounded">t</span></h3>
+                    <span><h4><sub class="text-light bg-dark rounded px-1">HUB</sub></h4></span>
+                </a>
+                <!--logo design-->
+
+
+                <!--navbar collapse button for small screen-->
+                <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+
+                <!--navbar links-->
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item "><a class="nav-link text-light" href="notification.html"><i class="fa-solid fa-bell"></i></a></li>
+                        <li class="nav-item "><a class="nav-link text-light" href="../login.html">Log In</a></li>
+                        <li class="nav-item" ><a class="nav-link text-light" href="../registration.html">Register</a></li>
+                    </ul>
+                </div>
+                
+            </nav>
+        </header>
+        <!--navbar ends here-->
+
+
+
+        <main>
+            <!--Previous project approval section-->
+            <div class="position-relative">
+                <div class="h4 mt-3">Admin : Mohammad Shoaib Rahman</div>
+                <!--search button-->
+                <div class=" d-inline-block position-absolute end-0 top-0">
+                    <form action="" method="">
+                        <input class="border rounded" type="text"> 
+                        <a href="#"><i class="fa-solid fa-magnifying-glass text-secondary fw-bold"></i></a>
+                    </form>
+                </div>
+            </div>
+            <hr>
+
+            
+
+            <!--page content-->
+            <div class="container">
+                <div class="row">
+                    
+                    <!--sidebar start-->
+                    <div class="col-sm-1 col-md-2 col-lg-3 me-3 border-end ">
+                        <div class="navbar d-block bg-secondary">
+                            <!--sidebar links-->
+                            <div class="ps-4 " id="sidebarContent">
+                                <ul class="navbar-nav">
+                                    
+                                        <li class="nav-item border-bottom my-sidebar-style">
+                                            <a class="nav-link text-light " href="admin_dashboard.html">
+                                                <i class="fa-regular fa-chart-bar me-3"></i>
+                                            Admin Dashboard</a>
+                                        </li>
+
+                                        <!--collapsable years option link for 3rd and 4th year-->
+                                        <!--team section-->
+                                        <li class="nav-item border-bottom text-light">
+                                            <a class="nav-link text-light my-sidebar-style" href="#yearsForTeams" data-bs-toggle="collapse">
+                                                <i class="fa-solid fa-users-line me-3 text-light"></i>
+                                                Supervising Teams
+                                            </a>
+                                            <!--collapsable year options-->
+                                            <div class="collapse nav-item " id="yearsForTeams">
+                                                <a class="nav-link text-light ms-4 border-bottom border-top my-sidebar-style" href="supervising_teams.html">3rd Year</a>
+                                                <a class="nav-link text-light ms-4 my-sidebar-style" href="supervising_teams.html">4th Year</a>
+                                            </div>
+                                        </li>
+
+                                        <!--collapsable years option link for 3rd and 4th year-->
+                                        <!--task section-->
+                                        <li class="nav-item border-bottom text-light">
+                                            <a class="nav-link text-light my-sidebar-style" href="#yearsForTasks" data-bs-toggle="collapse">
+                                                <i class="fa-solid fa-list-check me-3"></i>
+                                                Assigned Tasks
+                                            </a>
+                                            <!--collapsable year options-->
+                                            <div class="collapse nav-item " id="yearsForTasks">
+                                                <a class="nav-link text-light ms-4 border-bottom border-top my-sidebar-style" href="assigned_tasks.html">3rd Year</a>
+                                                <a class="nav-link text-light ms-4 my-sidebar-style" href="assigned_tasks.html">4th Year</a>
+                                            </div>
+                                        </li>
+
+                                        <li class="nav-item border-bottom my-sidebar-style">
+                                            <a class="nav-link text-light " href="meeting_requests.html">
+                                                <i class="fa-regular fa-clock me-3"></i>
+                                            Meeting Requests</a>
+                                        </li>
+                                        <li class="nav-item my-sidebar-style">
+                                            <a class="nav-link text-light " href="approve_previous.html">
+                                                <i class="fa-solid fa-circle-check me-3"></i>
+                                            Approve Previous</a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--sidebar end-->
+                    
+
+
+                    <!--table data -->
+                    <div class="col-sm-11 col-md-8 col-lg-8 ">
+
+                        <div class="bg-secondary p-1">
+                            <div class="text-light text-center h4 mt-3">Approve Previous Projects</div>
+                        </div>
+                        <hr>
+
+                        
+                        <form class="" name=""  action="" method="">
+                            <table class="table table-striped table-bordered text-center">
+                                <tr>
+                                    <th>Team ID</th>
+                                    <th>Team Members</th>
+                                    <th>Project Title</th>
+                                    <th>Supervisor</th>
+                                    <th>Action</th>
+                                </tr>
+                                <tr rowspan="4">
+                                    <td>234567</td>
+                                    <td >
+                                        <ol>
+                                            <li>Arpita Chowdhury</li>
+                                            <li>Enamur Ferdausi</li>
+                                        </ol>
+                                    </td>
+                                    <td>Project Management System</td>
+                                    <td>Mohammad Shoaib Rahman</td>
+                                    <td class="">
+                                        <a class="btn btn-success text-light mb-3" data-bs-toggle="tooltip" data-bs-placement="right" title="Approve" href="#"><i class="fa-solid fa-check"></i></a>
+                                        <a class="btn btn-danger text-light mb-3 " data-bs-toggle="tooltip" data-bs-placement="right" title="Reject" href="#"><i class="fa-solid fa-x"></i></a>
+                                        <button class="btn btn-secondary text-light " type="button" aria-expanded="false" data-bs-toggle="collapse" href="#details">Details</button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+
+
+                        <!--project details-->
+                        <div class="border rounded p-3 collapse card card-body" id="details">
+                            <div class="h5 text-center ">Details</div>
+
+                            <table class="table ">
+                                <tr>
+                                    <td class="h6">Team ID  </td>
+                                    <td>234567</td>
+                                </tr>
+                                <tr>
+                                    <td class="h6">Team Members </td>
+                                    <td class="">
+                                        <ol>
+                                            <li>Arpita Chowdhury</li>
+                                            <li>Enamur Ferdausi</li>
+                                        </ol>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="h6">Batch </td>
+                                    <td>53</td>
+                                </tr>
+                                <tr>
+                                    <td class="h6">Project Title</td>
+                                    <td>Project Management System</td>
+                                </tr>
+                                <tr>
+                                    <td class="h6">Descipline </td>
+                                    <td>Web</td>
+                                </tr>
+                                <tr>
+                                    <td class="h6">Supervisor </td>
+                                    <td>Mohammad Shoaib Rahman</td>
+                                </tr>
+                                <tr>
+                                    <td class="h6">Description </td>
+                                    <td>A project Management system where students and supervisor both can have benifites and increase productivity.</td>
+                                </tr>
+                                <tr >
+                                    <td class="h6">Github Repository</td>
+                                    <td>https://github.com/Arpita-chowdhury/projectHub</td>
+                                </tr>
+                                <tr>
+                                    <td class="h6">File </td>
+                                    <td></td>
+                                </tr>
+                                
+                            </table>
+                        </div>
+                        <!--project details end-->
+
+                    </div>
+
+                    
+                </div>
+                
+                
+                </div>
+                
+
+            </div>
+        </main>
+
+
+        
+    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
